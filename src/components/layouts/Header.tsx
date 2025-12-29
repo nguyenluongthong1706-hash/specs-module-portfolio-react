@@ -45,7 +45,7 @@ const AppHeader: React.FC = () => {
                     JD
                 </div>
                 <span className="ml-3 text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-gray-500 hidden sm:block">
-                    John Doe
+                    Nguyen Luong Thong
                 </span>
             </div>
 

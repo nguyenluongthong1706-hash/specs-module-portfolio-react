@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
+import { defineConfig } from 'vitest/config';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -14,6 +14,11 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src/'),
     },
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './test/setup.ts', // File thiết lập môi trường test
   },
 })
 

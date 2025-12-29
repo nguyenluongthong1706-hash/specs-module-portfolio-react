@@ -18,5 +18,17 @@ export const EN_LOCALE: typeof VI_LOCALE = {
         softSkills: "Soft Skills",
         techs: "Technologies",
         tools: "Tools",
+    },
+    contact:{
+        title: "Contact Me",
+        email: "Your email",
+        content: "Content",
+        submit: "Send",
+        success: "Send sucessfully",
+        error: "Send failed",
+        validation: {
+            required: "This field is required",
+            email: "Email is invalid"
+        }
     }
 }

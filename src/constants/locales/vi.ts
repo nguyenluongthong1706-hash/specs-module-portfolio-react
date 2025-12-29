@@ -16,5 +16,17 @@ export const VI_LOCALE = {
         softSkills: "Kỹ năng mềm",
         techs: "Công nghệ",
         tools: "Công cụ",
-  }
+    },
+    contact:{
+        title: "Liên hệ tôi",
+        email: "Email của bạn",
+        content: "Nội dung",
+        submit: "Gửi",
+        success: "Gửi thành công",
+        error: "Gửi thất bại",
+        validation: {
+            required: "Trường này là bắt buộc",
+            email: "Email không hợp lệ"
+        }
+    }
 }

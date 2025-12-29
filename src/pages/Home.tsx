@@ -20,10 +20,10 @@ const Home: React.FC = () => {
         <div className="flex-1 space-y-6">
           <div className="space-y-2">
             <Text className="text-blue-600 font-semibold text-lg">{t('home.hi')}</Text>
-            <Title level={1} className="!m-0 !text-5xl">
+            <Title level={1} className="m-0! text-5xl!">
               Nguyen Luong Thong
             </Title>
-            <Title level={3} className="!m-0 text-gray-500 font-medium">
+            <Title level={3} className="m-0! text-gray-500 font-medium">
               {t('home.title')}
             </Title>
           </div>
@@ -56,7 +56,9 @@ const Home: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="flex items-center gap-3"><CalendarOutlined className="text-blue-500"/> <Text>17/06/2003</Text></div>
             <div className="flex items-center gap-3"><EnvironmentOutlined className="text-blue-500"/> <Text>Da Nang, Viet Nam</Text></div>
-            <div className="flex items-center gap-3"><PhoneOutlined className="text-blue-500"/> <Text>0855 378 230</Text></div>
+            <div className="flex items-center gap-3">
+              <PhoneOutlined className="text-blue-500"/>
+               <Text>0855 378 230</Text></div>
             <div className="flex items-center gap-3"><MailOutlined className="text-blue-500"/> <Text>nguyenluongthong1706@gmail.com</Text></div>
           </div>
         </div>

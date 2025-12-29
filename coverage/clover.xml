@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1766995447790" clover="3.2.0">
+  <project timestamp="1766995447790" name="All files">
+    <metrics statements="23" coveredstatements="20" conditionals="6" coveredconditionals="2" methods="3" coveredmethods="3" elements="32" coveredelements="25" complexity="0" loc="23" ncloc="23" packages="2" files="2" classes="2"/>
+    <package name="pages">
+      <metrics statements="14" coveredstatements="13" conditionals="6" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="Contact.tsx" path="D:\Specs-Module\portfolio-react\src\pages\Contact.tsx">
+        <metrics statements="14" coveredstatements="13" conditionals="6" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="services">
+      <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="emailService.ts" path="D:\Specs-Module\portfolio-react\src\services\emailService.ts">
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
